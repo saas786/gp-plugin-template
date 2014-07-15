@@ -17,8 +17,7 @@ class GP_Plugin_Template extends GP_Plugin {
 		*/
 		$this->add_routes();
 	}
-
-
+	
 	function add_routes() {
 		$path = '(.+?)';
 		$id = '(.+)';
